@@ -6,7 +6,7 @@ beta = 2
 beta_estimates = []
 
 # Monte Carlo Simulation
-for _ in range(1_000):
+for _ in range(reps):
     x = np.random.normal(0, 9, obs)
     u = np.random.normal(0, 36, obs)
     y = 3 + beta*x + u
