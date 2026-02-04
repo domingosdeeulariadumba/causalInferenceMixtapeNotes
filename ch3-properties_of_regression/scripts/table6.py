@@ -13,8 +13,8 @@ X = x.reshape(-1, 1)
 model = LinearRegression()
 model.fit(X, y)
 yhat = model.predict(X)
-u_hat = y - yhat
-pd.Series(u_hat).describe() # su residuals
+uhat = y - yhat
+pd.Series(uhat).describe() # su residuals
 
 # Summarized output
 df = pd.DataFrame({
@@ -22,7 +22,7 @@ df = pd.DataFrame({
     'u': u,
     'y': y,
     'yhat': yhat,
-    'residuals': u_hat
+    'residuals': uhat
 })
 print(df)
 
@@ -31,4 +31,4 @@ collapsed = df.sum().to_frame('Sum').T
 print(collapsed)
 
 # Verifying residuals sum to ~0
-assert(round(u_hat.sum(), 10) == 0)
+assert(round(uhat.sum(), 10) == 0)
