@@ -2,7 +2,9 @@ This repository exists for self-learning purposes and for those who may be inter
 
 ### How to run the scripts?
 So far, I've used four dependencies: NumPy, Pandas, Seaborn, Matplotlib, and Scikit-Learn. In case you're not familiar with Python, I recommend you to get started via Anaconda (as it handles the basics, and brings the five aforementioned packages by default). You can also get Python separately from your OS Store, install it, and just run the command below on your terminal:
+
 **`pip install numpy pandas seaborn matplotlib scikit-learn`**
+
 Or simply use Google Colab (no installation headache).
 
 ### About the differences on generated data
