@@ -6,7 +6,7 @@ So far, I've used four dependencies: NumPy, Pandas, Seaborn, Matplotlib, and Sci
 Or simply use Google Colab (no installation headache).
 
 ### About the differences on generated data
-Please note that the data presented in the book will not match naturally what you will obtain by running the scripts. This is because Stata's Pseudo-Random Number Generator (PRNG) differs from Python's (NumPy).
+Please note that the data presented in the book will naturally not match what you will obtain by running the scripts. This is because Stata's Pseudo-Random Number Generator (PRNG) differs from Python's (NumPy).
 
 ### One final word
-Just like AI, I can make mistakes, with the only obvious difference being that I am a person. Regarding mistakes, if you find any mistakes, they're on me :), not on Cunningham. I'd be happy to learn from it.
+Just like AI, I can make mistakes, with the only obvious difference being that I am a person. If you find any, they're on me :), not on Cunningham. I'd be happy to learn from it.
