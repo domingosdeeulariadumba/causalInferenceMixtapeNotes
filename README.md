@@ -5,9 +5,9 @@ This repository exists for self-learning purposes and for those who may be inter
 The scripts use five main dependencies: NumPy, Pandas, Seaborn, Matplotlib, and Scikit-Learn. If you're not familiar with Python, I recommend getting started via Anaconda, which handles the basics and includes these packages by default. Alternatively, you can install Python separately from your OS store and follow these steps (running commands in your terminal):
 
 **1. Clone the repository:** `git clone https://github.com/domingosdeeulariadumba/causalInferenceMixtapeNotes.git`  
-**2. Navigate to the root directory:** `cd causalInferenceMixtapeNotes`  
-**3. Install the dependencies:** `pip install -r requirements.txt`
-**4. Open the script you want using the environment of your preference. That's it!**
+**2. Navigate to the root directory:** `cd causalInferenceMixtapeNotes`                               
+**3. Install the dependencies:** `pip install -r requirements.txt`                                     
+**4. Open the script you want using the environment of your preference. That's it** ``
 
 Or simply use Google Colab to avoid installation entirely.
 
