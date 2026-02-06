@@ -13,7 +13,7 @@ for _ in range(reps):
     beta_hat = cov_mtx[0, 1] / cov_mtx[0, 0]
     beta_estimates.append(beta_hat)
 e_beta_hat = round(np.array(beta_estimates).mean())
-assert(e_beta_hat == beta) # E(beta_hat) = beta, unbiasedness holds
+assert e_beta_hat == beta # E(beta_hat) = beta, unbiasedness holds
 
 # Summary
 beta_estimates_series = pd.Series(beta_estimates)

@@ -31,4 +31,4 @@ collapsed = df.sum().to_frame('Sum').T
 print(collapsed)
 
 # Verifying residuals sum to ~0
-assert(round(uhat.sum(), 10) == 0)
+assert round(uhat.sum(), 10) == 0
